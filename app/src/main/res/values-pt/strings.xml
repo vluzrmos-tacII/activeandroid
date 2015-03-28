@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lista de Livros</string>
+    <string name="action_settings">Configurações</string>
+    <string name="book_add">Adicionar Livro</string>
+    <string name="book_added_message">Livro adicionado com sucesso!</string>
+    <string name="book_clear_list">Limpar lista de livros</string>
+    <string name="book_description">Descrição:</string>
+    <string name="book_description_hint">Mundo Maravilhoso</string>
+    <string name="book_title">Título:</string>
+    <string name="book_title_hint">Alice no País das Maravilhas</string>
+    <string name="books_deleted_message">Livro removido!</string>
+    <string name="clear_books_alert_message">Essa ação removerá todos os seus livros. Você tem certeza disso?</string>
+    <string name="clear_books_alert_title">Remover todos os livros</string>
+    <string name="hello_world">Olá mundo!</string>
+    <string name="no">Não</string>
+    <string name="yes">Sim</string>
+    <string name="validation_book_description">A descrição é obrigatória!</string>
+    <string name="validation_book_title">O título é obrigatório!</string>
+</resources>

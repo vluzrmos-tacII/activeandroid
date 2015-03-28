@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5sp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/book_add"
+        android:onClick="buttonAddBook"
+    />
+
+    <Button
+        android:id="@+id/btn_clear_book_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/book_clear_list"
+        android:onClick="buttonClearBookList"
+        android:visibility="visible"
+        />
+
+    <ListView
+        android:id="@+id/books_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
